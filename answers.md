@@ -24,7 +24,7 @@
 4. Challenge 4:
   - Answer: c) { num: 90 }
   - Explanation:
-    Al imprimir la consola se mostrará { num: 90 } porque al declarar const b = a no se está creando un nuevo objeto, sino copiando la referencia del valor de "a" y asignándola a "b", por tanto ambas variables parten del mismo punto o tienen la misma ruta en la memoria. Entonces al modificar la propiedad de b, al referenciar al mismo objeto que a, se modifica el valor de ambas.
+    Al imprimir la consola se mostrará { num: 90 } porque al declarar const b = a no se está creando un nuevo objeto, sino copiando la referencia del valor de "a" y asignándolo a "b", por tanto ambas variables parten del mismo punto o misma ruta en la memoria. Entonces cuando se modifica la propiedad de "b", al referenciar el mismo objeto que "a", se modifica el valor de ambas.
 
 
 5. Bonus - Challenge 5:
